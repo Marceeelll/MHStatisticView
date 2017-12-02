@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FB783061FD1BA5B00C39A7D /* MHStatisticFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB783051FD1BA5B00C39A7D /* MHStatisticFramework.framework */; };
+		0FB783071FD1BA5B00C39A7D /* MHStatisticFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB783051FD1BA5B00C39A7D /* MHStatisticFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		0FD2B87E1FB6F59B0074CD07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2B87D1FB6F59B0074CD07 /* AppDelegate.swift */; };
 		0FD2B8801FB6F59B0074CD07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2B87F1FB6F59B0074CD07 /* ViewController.swift */; };
 		0FD2B8831FB6F59B0074CD07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD2B8811FB6F59B0074CD07 /* Main.storyboard */; };
@@ -14,18 +16,16 @@
 		0FD2B8881FB6F59B0074CD07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FD2B8861FB6F59B0074CD07 /* LaunchScreen.storyboard */; };
 		0FD2B8941FB6FA5C0074CD07 /* UILineChartDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2B8931FB6FA5C0074CD07 /* UILineChartDelegate.swift */; };
 		0FD2B8961FB6FA650074CD07 /* UILineChartDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FD2B8951FB6FA650074CD07 /* UILineChartDataSource.swift */; };
-		0FF065FA1FB71D150027015D /* MHStatisticFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF065F91FB71D150027015D /* MHStatisticFramework.framework */; };
-		0FF065FB1FB71D150027015D /* MHStatisticFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0FF065F91FB71D150027015D /* MHStatisticFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		0FD2B8921FB6F77F0074CD07 /* Embed Frameworks */ = {
+		0FB782FF1FD1B75500C39A7D /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0FF065FB1FB71D150027015D /* MHStatisticFramework.framework in Embed Frameworks */,
+				0FB783071FD1BA5B00C39A7D /* MHStatisticFramework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -33,6 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0FB783051FD1BA5B00C39A7D /* MHStatisticFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MHStatisticFramework.framework; path = MHFrameworks/MHStatisticFramework.framework; sourceTree = "<group>"; };
 		0FD2B87A1FB6F59B0074CD07 /* MHStatisticViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHStatisticViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FD2B87D1FB6F59B0074CD07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FD2B87F1FB6F59B0074CD07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -42,7 +43,6 @@
 		0FD2B8891FB6F59B0074CD07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0FD2B8931FB6FA5C0074CD07 /* UILineChartDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILineChartDelegate.swift; sourceTree = "<group>"; };
 		0FD2B8951FB6FA650074CD07 /* UILineChartDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILineChartDataSource.swift; sourceTree = "<group>"; };
-		0FF065F91FB71D150027015D /* MHStatisticFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MHStatisticFramework.framework; path = MHFrameworks/MHStatisticFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0FF065FA1FB71D150027015D /* MHStatisticFramework.framework in Frameworks */,
+				0FB783061FD1BA5B00C39A7D /* MHStatisticFramework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 		0FD2B8711FB6F59B0074CD07 = {
 			isa = PBXGroup;
 			children = (
-				0FF065F91FB71D150027015D /* MHStatisticFramework.framework */,
+				0FB783051FD1BA5B00C39A7D /* MHStatisticFramework.framework */,
 				0FD2B87C1FB6F59B0074CD07 /* MHStatisticViewExample */,
 				0FD2B87B1FB6F59B0074CD07 /* Products */,
 			);
@@ -99,7 +99,7 @@
 				0FD2B8761FB6F59B0074CD07 /* Sources */,
 				0FD2B8771FB6F59B0074CD07 /* Frameworks */,
 				0FD2B8781FB6F59B0074CD07 /* Resources */,
-				0FD2B8921FB6F77F0074CD07 /* Embed Frameworks */,
+				0FB782FF1FD1B75500C39A7D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);

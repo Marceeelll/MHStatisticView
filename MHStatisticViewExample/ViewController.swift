@@ -50,6 +50,8 @@ class ViewController: UIViewController {
         lineChartView.legendTextColor = lineChartLegendColor
         lineChartView.tintColor = lineChartTintColor
         
+        lineChartView.margin = 40
+        
         setUpUIElements()
     }
     
